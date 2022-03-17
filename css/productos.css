@@ -1,0 +1,35 @@
+.cartas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+ border: 1px solid #e4e4e4;
+box-shadow: 8px 8px 5px #c0c0c09b;
+/* height: 55vh; */
+/* flex-direction: column; */
+text-align: center;
+margin: 10px;
+}
+/* footer */
+hr{
+    width: 90%;
+    margin: 50px auto;
+  }
+  .contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 10px;
+  }
+  .contact ul{
+    list-style: none;
+  }
+  
+  .derechos{
+    text-align: center;
+  }
+  .contact ul li a:hover{
+    background-color: rgb(209, 209, 209);
+  }

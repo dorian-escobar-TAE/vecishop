@@ -1,0 +1,55 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: rgb(132, 0, 255);
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+header .veci-Logo {
+    font-size: 2.6rem;
+    font-family: 'Concert One', cursive;
+    color: rgb(255, 255, 255);
+}
+
+header .navbar a {
+    background-color: rgb(132, 0, 255);
+    font-size: 1.8rem;
+    color: whitesmoke;
+    margin: 0 1rem;
+}
+
+header .navbar a:hover {
+    color: orange;
+}
+
+header .icons a {
+    font-size: 2.5rem;
+    color: orange;
+    margin-left: 1.5rem;
+}
+
+header .icons a:hover {
+    color: white;
+}
+
+
+/* 5.1 Hamburger -responsive*/
+
+#menu-bar {
+    font-size: 2.5rem;
+    padding: .5rem 1.5rem;
+    border: .1rem solid var(--black);
+    color: var(--black);
+    border-radius: .3rem;
+    cursor: pointer;
+    display: none;
+    background-color: rgb(132, 0, 255);
+}
+
